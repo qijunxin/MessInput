@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'code';
+    src: url('font/code_bold-webfont.eot');
+    src: url('font/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/code_bold-webfont.woff2') format('woff2'),
+         url('font/code_bold-webfont.woff') format('woff'),
+         url('font/code_bold-webfont.ttf') format('truetype'),
+         url('font/code_bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(#222922, #000500);
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  overflow: hidden;
+  padding: 30px 0 0 30px;
+  text-align: center;
+}
+.message{
+	bottom: 0;
+    color: #fff;
+    font-size: 2.5em;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    margin: auto;
+    right: 0;
+    position: absolute;
+    text-shadow: 0 0 10px rgba(50, 255, 50, 0.5), 0 0 5px rgba(100, 255, 100, 0.5);
+    top: 0
+}
+.overlay {
+    background-image: -webkit-linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-image: -o-linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+    background-image: linear-gradient(transparent 0%, rgba(10, 16, 10, 0.5) 50%);
+  	background-size: 1000px 2px;
+  	bottom: 0;
+  	content: '';
+  	left: 0;
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+}
+.message span{
+	display: inline-block;
+	-webkit-transform: translateX(100%) scale(0.9);
+	-webkit-transition: .5s;
+}
+.message .done{
+	color:#6f6;
+	-webkit-transform: translateX(0) scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
